@@ -24,7 +24,8 @@ A blue button should appear to click: *Make Public*,
     b-Positioning
         -about us
         
-3- Screen reader
+3- Screen reader: 
+    - icons, see resume footer
 4- Ads: absolute. add images with links
 
 

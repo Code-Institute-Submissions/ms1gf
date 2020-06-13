@@ -20,7 +20,7 @@
     <title>ChildrenDazes</title>
   </head>
   <body>
-    <header>
+    <header class="border-bottom">
       <!-- The nav element has been taken from bootstrap site and modified https://getbootstrap.com/docs/4.0/components/navbar/ -->
       <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="#">ChildrenDazes</a>
@@ -47,35 +47,62 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign In</a>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">Sign In</a>
               <!-- form group has a complex form for the sign up modal https://getbootstrap.com/docs/4.0/components/forms/ -->
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <section>
-      <div class="container-fluid"></div>
+    <section class="bg-section-body">
+    <!-- the ads portion absolute can be found on the love running website in repl.it. video name "hero image cover text" -->
+<div class="container"></div>
       <p>Tiles here</p>
       <!-- See custom content https://getbootstrap.com/docs/4.4/components/list-group/ -->
+      <div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List group item heading</h5>
+      <small>3 days ago</small>
+    </div>
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    <small>Donec id elit non mi porta.</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List group item heading</h5>
+      <small class="text-muted">3 days ago</small>
+    </div>
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    <small class="text-muted">Donec id elit non mi porta.</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List group item heading</h5>
+      <small class="text-muted">3 days ago</small>
+    </div>
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    <small class="text-muted">Donec id elit non mi porta.</small>
+  </a>
+</div>
+
     </section>
-    <footer class="fixed-bottom">
+    <footer class="fixed-bottom border-top">
       <div class="container-fluid text-center">
         <div class="row">
-          <div class="col-sm-6">
-            <h3>Contact Us</h3>
+          <div class="col-sm-6 border-right">
+            <a href="about.html"><h3 class=""><i class="fas fa-phone-alt" aria-hidden="true"></i>Contact Us </h3></a>
           </div>
           <div class="col-sm-6">
-            <h3>Social Media</h3>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <i class="fab fa-facebook-square"></i>
+            <h3 class="social-title">Social Media</h3>
+            <ul class="list-inline social-icons">
+                <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-square"></i></a>
               </li>
-              <li class="list-inline-item">
-                <i class="fab fa-instagram-square"></i>
+                <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram-square" aria-hidden="true"></i></a><span class="sr-only">Youtube</span>
               </li>
-              <li class="list-inline-item">
-                <i class="fab fa-pinterest-square"></i>
+              <li class="list-inline-item"><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square" aria-hidden="true"></i></a><span class="sr-only">Youtube</span>
               </li>
             </ul>
           </div>
@@ -85,17 +112,6 @@
 
     <!-- Modal -->
     <!-- Modal. Taken from bootstrap and modified.  -->
-    <!-- Button trigger modal -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-toggle="modal"
-      data-target="#exampleModalCenter"
-    >
-      Launch demo modal
-    </button>
-
-    <!-- Modal -->
     <div
       class="modal fade"
       id="exampleModalCenter"
@@ -117,7 +133,7 @@
             </button>
           </div>
           <div class="modal-body">
-                      <h5 class="modal-title" id="exampleModalLongTitle">Sign In</h5>
+                      <h5 class="modal-title" id="modalsignin">Sign In</h5>
 
             <form>
               <div class="form-group">
@@ -142,7 +158,7 @@
 
               <button type="submit" class="btn btn-primary">Login</button>
             </form>
-             <h5 class="modal-title" id="exampleModalLongTitle">Register</h5>
+             <h5 class="modal-title" id="modalsignup">Register</h5>
             <form>
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -191,8 +207,10 @@
           
         </div>
     </div>
+    </div>
 
-    <!-- The three lines of code below were taken from bootstrap site in order to get the modal windows working. the links below allow Javascript and Jquery to run on this site -->
+    <!-- The three lines of code from section below were taken from bootstrap site in order to get the modal windows working. the links below allow Javascript and Jquery to run on this site -->
+   <section>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -208,5 +226,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    </section>
   </body>
 </html>

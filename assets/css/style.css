@@ -1,14 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 body {
-   /*  background-image: url("/assets/images/kids_clouds_bg.jpg"); this image is from https://wallpapersafari.com/w/JD9L2H */
-   
+     /*  background-image: url("/assets/images/kids_clouds_bg.jpg"); this image is from https://wallpapersafari.com/w/JD9L2H */
+
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, .5)
+    }
+
+/*-------------------------------------------- Content Body*/
+
+.bg-section-body {
+    background-color: #ffffff;
 }
 
-.bg-light {
-    
+.list-group-item{
+    background-color: #f0f2f5;
+}
+.list-group-item-action{
+    width: 600px;
+     z-index: 1;
+    color: #495057;
+    text-decoration: none;
+    background-color: #f8f9fa;
 }
 
+/*-------------------------------------------- Footer*/
 footer {
-    border: 1px;
     background-color: #fafafa;
 }
 
+footer a {
+    color: rgba(0, 0, 0, .5);
+}
+
+footer a:hover {
+    color: rgba(0, 0, 0, .9);
+    text-decoration: none;
+}
+
+a h3 {
+    color: rgba(0, 0, 0, .5);
+}
+
+footer 
+.social-icons {
+
+}

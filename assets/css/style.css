@@ -1,15 +1,14 @@
 body {
    /*  background-image: url("/assets/images/kids_clouds_bg.jpg"); this image is from https://wallpapersafari.com/w/JD9L2H */
-    background-color: #5f8cf5;
-    background-repeat: no-repeat;
-    background-position: left;
+   
 }
 
 .bg-light {
-    opacity: 0.6;
+    
 }
 
 footer {
-    background-color: #f8f9fa;
-    opacity: 0.6;
+    border: 1px;
+    background-color: #fafafa;
 }
+

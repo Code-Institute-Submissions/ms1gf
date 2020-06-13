@@ -14,6 +14,19 @@ A blue button should appear to click: *Make Public*,
 **December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 --------
+1- Skeleton
+    a-Index
+    b- About.HTML
+    c- Modal
+2- CSS  
+    a-colors and fonts
+        -shades
+    b-Positioning
+        -about us
+        
+3- Screen reader
+4- Ads: absolute. add images with links
+
 
 Happy coding!
 # ChildrenDaze.com

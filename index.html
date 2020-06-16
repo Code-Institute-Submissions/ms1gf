@@ -16,6 +16,8 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>ChildrenDazes</title>
   </head>
@@ -56,10 +58,10 @@
     </header>
     <section class="bg-section-body">
     <!-- the ads portion absolute can be found on the love running website in repl.it. video name "hero image cover text" -->
-<div class="container"></div>
-      <p>Tiles here</p>
+<!-- <div class="container">
+      <p>Tiles here</p> -->
       <!-- See custom content https://getbootstrap.com/docs/4.4/components/list-group/ -->
-      <div class="list-group">
+      <!-- <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action">
     <div class="d-flex w-100 justify-content-between">
       <h5 class="mb-1">List group item heading</h5>
@@ -85,26 +87,68 @@
     <small class="text-muted">Donec id elit non mi porta.</small>
   </a>
 </div>
+</div> -->
+    <div class="tiles-all">
+    <div class="tiles">
+        <div class="c-story-header">
+            <h4>Story Title</h4>
+            <div class="c-storydetails">
+                <small class="t-author">Author</small>
+                <small class="t-date">01/12/2020</small>
+                <small class="t-time">2:30pm</small>
+            </div>
+        </div>
+        <hr>
 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i><span>1,001 Likes</span>
+    </div>
+    <div class="tiles">
+        <h4>Story Title</h4>
+        <small class="t-author">Author</small>
+        <small class="t-date">01/12/2020</small>
+        <small class="t-time">2:30pm</small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    </div>
+    <div class="tiles">
+        <h4>Story Title</h4>
+        <small class="t-author"Author></small>
+        <small class="t-date">01/12/2020</small>
+        <small class="t-time">2:30pm</small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    </div>
+    <div class="tiles">
+        <h4>Story Title</h4>
+        <small class="t-author"Author></small>
+        <small class="t-date">01/12/2020</small>
+        <small class="t-time">2:30pm</small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    </div>
+    </div>
     </section>
     <footer class="fixed-bottom border-top">
-      <div class="container-fluid text-center">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6 border-right">
-            <a href="about.html"><h3 class=""><i class="fas fa-phone-alt" aria-hidden="true"></i>Contact Us </h3></a>
+            <a href="about.html"><h3 id="c-footer-contactus"><i class="fas fa-phone-alt c-icon-contactus" aria-hidden="true"></i>Contact Us </h3></a>
           </div>
           <div class="col-sm-6">
-            <h3 class="social-title">Social Media</h3>
+            <div id="c-social-div">
+            <h3>Social Media</h3>
             <ul class="list-inline social-icons">
                 <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank">
-                <i class="fab fa-facebook-square"></i></a>
+                <i class="fab fa-facebook-square c-social-fonts"></i></a><span class="sr-only">Facebook</span>
               </li>
                 <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank">
-                <i class="fab fa-instagram-square" aria-hidden="true"></i></a><span class="sr-only">Youtube</span>
+                <i class="fab fa-instagram-square c-social-fonts" aria-hidden="true"></i></a><span class="sr-only">Youtube</span>
               </li>
-              <li class="list-inline-item"><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square" aria-hidden="true"></i></a><span class="sr-only">Youtube</span>
+              <li class="list-inline-item"><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square c-social-fonts" aria-hidden="true"></i></a><span class="sr-only">Youtube</span>
               </li>
             </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -226,6 +270,12 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+
     </section>
   </body>
 </html>

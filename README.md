@@ -14,6 +14,14 @@ A blue button should appear to click: *Make Public*,
 **December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 --------
+Mentor questions:
+- how to make the vertical short line in the footer
+- Conversion to mobile
+- Why social media icons does not accept the radius?
+
+to do:
+how to cut shot the <hr> line break from the Technologies
+
 1- Skeleton
     a-Index
     b- About.HTML

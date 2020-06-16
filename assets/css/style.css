@@ -1,48 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 body {
-     /*  background-image: url("/assets/images/kids_clouds_bg.jpg"); this image is from https://wallpapersafari.com/w/JD9L2H */
+  /*  background-image: url("/assets/images/kids_clouds_bg.jpg"); this image is from https://wallpapersafari.com/w/JD9L2H */
 
-    font-family: 'Roboto', sans-serif;
-    color: rgba(0, 0, 0, .5)
-    }
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
 
 /*-------------------------------------------- Content Body*/
 
 .bg-section-body {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-.list-group-item{
-    background-color: #f0f2f5;
+.list-group-item {
+  background-color: #f0f2f5;
 }
-.list-group-item-action{
-    width: 600px;
-     z-index: 1;
-    color: #495057;
-    text-decoration: none;
-    background-color: #f8f9fa;
+.list-group-item-action {
+  width: 600px;
+  z-index: 1;
+  color: #495057;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+/*-------------------------------------------- Content Body - Custom*/
+.tiles-all {
+  background-color: yellow;
+}
+
+.tiles {
+  background-color: green;
+  width: 600px;
+  padding: 8px;
+  margin-bottom: 20px;
+  max-height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-story-header {
+  display: block;
+}
+
+.tiles-all h4 {
+    position:relative;
+    bottom: -10px;
+  display: inline-block;
+  background-color: orange;
+  margin: auto 10px;
+}
+
+.t-author {
+    display: block;
+}
+
+.c-storydetails {
+  background-color: rebeccapurple;
+  float: right;
+}
+
+.tiles span {
+    color: rgba(0,0,0,.5);
+    text-align: right;
+    float: right;
+}
+
+.tiles .fa-thumbs-up {
+  font-size: 30px;
+  color: #f37011bf;
+  cursor: pointer;
+  user-select: none;
+transition: transform .2s;    
+  
+}
+
+.tiles .fa-thumbs-up:hover {
+    color: #f37011;
+    -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+
 }
 
 /*-------------------------------------------- Footer*/
 footer {
-    background-color: #fafafa;
+  background-color: #fafafa;
+}
+
+#c-footer-contactus {
+  text-align: right;
+  font-size: 24px;
+  margin-top: 25px;
+  margin-right: 15%;
+  margin-left: 10px;
+}
+
+.c-icon-contactus {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #67b774;
+    font-size: 20px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 50%;
+    color: #fafafa;
 }
 
 footer a {
-    color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 footer a:hover {
-    color: rgba(0, 0, 0, .9);
-    text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
 }
 
 a h3 {
-    color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
-footer 
-.social-icons {
-
+#c-social-div {
+  display: inline-block;
+  text-align: right;
+  font-size: 1.35 em;
+  margin: 10px 0;
+  margin-left: 15%;
 }
+
+.h3, h3 {/*Social media title*/
+    font-size: 1.35rem;
+    margin-bottom: 0;
+}
+
+
+
+dl, ol, ul { /*social media fonts*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer .c-social-fonts:hover {
+    color: #f37011bf; 
+}
+
+.c-social-fonts {
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 20px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer .social-icons {
+    text-align: center;
+}
+

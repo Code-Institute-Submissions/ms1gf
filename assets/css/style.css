@@ -7,7 +7,7 @@ body {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/*-------------------------------------------- Content Body*/
+/*-------------------------------------------- Colors*/
 
 .bg-section-body {
   background-color: #ffffff;
@@ -16,27 +16,55 @@ body {
 .list-group-item {
   background-color: #f0f2f5;
 }
+
 .list-group-item-action {
-  width: 600px;
-  z-index: 1;
   color: #495057;
-  text-decoration: none;
   background-color: #f8f9fa;
 }
 
-/*-------------------------------------------- Content Body - Custom*/
 .tiles-all {
-  background-color: yellow;
+  background-color: #fff;
 }
 
 .tiles {
-  background-color: green;
+  background-color: #fafafa;
+}
+
+.tiles-all h4 {
+  background-color:#fafafa;
+}
+
+.c-storydetails {
+  background-color: #fafafa;
+}
+
+footer {
+  background-color: #fafafa;
+}
+
+.c-icon-contactus {
+  background-color: #67b774;
+  color: #fafafa;
+}
+
+/*-------------------------------------------- Content Body*/
+
+.list-group-item-action {
+  width: 600px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+/*-------------------------------------------- Content Body - Custom*/
+
+.tiles {
   width: 600px;
   padding: 8px;
   margin-bottom: 20px;
   max-height: 450px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid rgb(53, 13, 13);
 }
 
 .c-story-header {
@@ -44,26 +72,28 @@ body {
 }
 
 .tiles-all h4 {
-    position:relative;
-    bottom: -10px;
+    font-weight: 400;
+  position: relative;
+  bottom: -10px;
   display: inline-block;
-  background-color: orange;
   margin: auto 10px;
 }
 
 .t-author {
-    display: block;
+  display: block;
 }
 
 .c-storydetails {
-  background-color: rebeccapurple;
   float: right;
 }
 
 .tiles span {
-    color: rgba(0,0,0,.5);
-    text-align: right;
-    float: right;
+  text-align: right;
+  float: right;
+}
+
+.tiles p {
+    font-weight: 600;
 }
 
 .tiles .fa-thumbs-up {
@@ -71,22 +101,17 @@ body {
   color: #f37011bf;
   cursor: pointer;
   user-select: none;
-transition: transform .2s;    
-  
+  transition: transform 0.2s;
 }
 
 .tiles .fa-thumbs-up:hover {
-    color: #f37011;
-    -ms-transform: scale(1.2); /* IE 9 */
+  color: #f37011;
+  -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2);
-
 }
 
 /*-------------------------------------------- Footer*/
-footer {
-  background-color: #fafafa;
-}
 
 #c-footer-contactus {
   text-align: right;
@@ -97,15 +122,13 @@ footer {
 }
 
 .c-icon-contactus {
-    margin-right: 10px;
-    width: 30px;
-    height: 30px;
-    background-color: #67b774;
-    font-size: 20px;
-    padding: 5px 0;
-    text-align: center;
-    border-radius: 50%;
-    color: #fafafa;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 50%;
 }
 
 footer a {
@@ -113,12 +136,8 @@ footer a {
 }
 
 footer a:hover {
-  color: rgba(0, 0, 0, 0.9);
+ color: rgba(0, 0, 0, 0.9);
   text-decoration: none;
-}
-
-a h3 {
-  color: rgba(0, 0, 0, 0.5);
 }
 
 #c-social-div {
@@ -129,33 +148,59 @@ a h3 {
   margin-left: 15%;
 }
 
-.h3, h3 {/*Social media title*/
-    font-size: 1.35rem;
-    margin-bottom: 0;
+.h3,
+h3 {
+  /*Social media title*/
+  font-size: 1.35rem;
+  margin-bottom: 0;
 }
 
-
-
-dl, ol, ul { /*social media fonts*/
-    margin-top: 0;
-    margin-bottom: 0;
+dl,
+ol,
+ul {
+  /*social media fonts*/
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 footer .c-social-fonts:hover {
-    color: #f37011bf; 
+  color: #f37011bf;
 }
 
 .c-social-fonts {
-    font-size: 20px;
-    margin-top: 5px;
-    line-height: 20px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  font-size: 20px;
+  margin-top: 5px;
+  line-height: 20px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 footer .social-icons {
-    text-align: center;
+  text-align: center;
 }
 
+/*-------------------------------------------- Footer*/
+
+.modal-body h5 {
+    margin-bottom: 14px;
+}
+
+.c-float-right {
+    float: right;
+}
+
+.modal-body hr {
+    margin: 21px 155px;
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.modal-body select[class=form-control] {
+    width: 49%;
+    float: right;
+}
+
+modal-body label .c-label {
+    margin-top: 10px;
+}

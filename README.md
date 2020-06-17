@@ -36,6 +36,7 @@ how to cut shot the <hr> line break from the Technologies
     - icons, see resume footer
 4- Ads: absolute. add images with links
 
+to fix button from mobile header?
 remove the modal "how many children..."?"
 
 Happy coding!

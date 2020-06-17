@@ -16,14 +16,21 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>ChildrenDazes</title>
   </head>
-  <body> 
-    <header>
-    <!-- The nav element has been taken from bootstrap site and modified https://getbootstrap.com/docs/4.0/components/navbar/ -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">ChildrenDazes</a>
+  <body>
+    <header class="border-bottom">
+      <!-- The nav element has been taken from bootstrap site and modified https://getbootstrap.com/docs/4.0/components/navbar/ -->
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light .navbar-fixed-top"
+      >
+        <a class="navbar-brand" href="index.html">ChildrenDazes</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,72 +46,263 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign In</a>
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+                >Sign In</a
+              >
+              <!-- form group has a complex form for the sign up modal https://getbootstrap.com/docs/4.0/components/forms/ -->
             </li>
           </ul>
         </div>
       </nav>
     </header>
     <section class="container">
-        <div class="row">
-						<div class="col-12 col-md-6 col-lg-4">
-							<div class="feature">
-								<h3> About Us</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-									incididunt
-									ut
-									labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-									ullamco
-									laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-									reprehenderit
-									in
-									voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-									cupidatat
-									non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4">
-							<div class="feature">
-								<h3> Contact Us</h3>
-								<form class="form-group">
-                                    <input class="form-control" type="text" placeholder="Full Name">
-                                    <input class="form-control" type="text" placeholder="Email Address">
-                                    <textarea class="form-control" id="contactmessage" name="contactmessage" rows="10" placeholder="Message"></textarea>
-                                    <input  type="submit" value="Submit">
-                                </form>
-						</div>
-					</div>
-    </section>
-    <footer class="fixed-bottom">
-      <div class="container-fluid text-center">
-        <div class="row">
-          <div class="col-sm-6">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+          <div class="feature">
+            <h3>About Us</h3>
+            <p>
+              ChildrenDaze was borned in United States of America and it was 
+              designed to bring dazaling entertainment and worm feelings into your life.
+              Here you can be touched by stories where the main protagonists are
+              the children that we all (more often then not) love :)
+                <br>
+              Here you can also share those special momories you had with children.
+              We know that chindren have been responsible for some of the funniest,
+              wisest, or adorable things that we've seen or heard. For this reason,
+              we know that when you visit our page, you will be a better person
+              than you were before.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="feature">
             <h3>Contact Us</h3>
+            <form class="form-group">
+              <input class="form-control" type="text" placeholder="Full Name" />
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Email Address"
+              />
+              <textarea
+                class="form-control"
+                id="contactmessage"
+                name="contactmessage"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="border-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 border-right">
+            <a href="about.html"
+              ><h3 id="c-footer-contactus">
+                <i
+                  class="fas fa-phone-alt c-icon-contactus"
+                  aria-hidden="true"
+                ></i
+                >Contact Us
+              </h3></a
+            >
           </div>
           <div class="col-sm-6">
-            <h3>Social Media</h3>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <i class="fab fa-facebook-square"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-instagram-square"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-pinterest-square"></i>
-              </li>
-            </ul>
+            <div id="c-social-div">
+              <h3>Social Media</h3>
+              <ul class="list-inline social-icons">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-square c-social-fonts"></i></a
+                  ><span class="sr-only">Facebook</span>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <i
+                      class="fab fa-instagram-square c-social-fonts"
+                      aria-hidden="true"
+                    ></i></a
+                  ><span class="sr-only">Youtube</span>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.pinterest.com/" target="_blank"
+                    ><i
+                      class="fab fa-pinterest-square c-social-fonts"
+                      aria-hidden="true"
+                    ></i></a
+                  ><span class="sr-only">Youtube</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <!-- Modal. Taken from bootstrap and modified.  -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5 class="modal-title text-center" id="modalsignin">Sign In</h5>
+
+            <form>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                />
+              </div>
+              <small id="emailHelp" class="form-text text-muted c-float-right"
+                ><a href="http://www.imsorry.com/" target="_blank"
+                  >Forgot password?</a
+                ></small
+              >
+
+              <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+            <hr />
+            <h5 class="modal-title text-center" id="modalsignup">Register</h5>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstname"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastname"
+                    placeholder="Last Name"
+                  />
+                </div>
+                <div class="form-group col-md-12">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email2"
+                    placeholder="Email address"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="numberOfKids">How many kids do you have?</label>
+                  <select id="numberOfKids" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10 or more</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password2"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="confirmpassword2"
+                    placeholder="Confirm Password"
+                  />
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Sign Up!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The three lines of code from section below were taken from bootstrap site in order to get the modal windows working. the links below allow Javascript and Jquery to run on this site -->
+    <section>
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("fa-thumbs-down");
+        }
+      </script>
+    </section>
   </body>
 </html>

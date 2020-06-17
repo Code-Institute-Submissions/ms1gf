@@ -16,7 +16,10 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>ChildrenDazes</title>
@@ -24,8 +27,10 @@
   <body>
     <header class="border-bottom">
       <!-- The nav element has been taken from bootstrap site and modified https://getbootstrap.com/docs/4.0/components/navbar/ -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">ChildrenDazes</a>
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light .navbar-fixed-top"
+      >
+        <a class="navbar-brand" href="index.html">ChildrenDazes</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -41,15 +46,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">Sign In</a>
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+                >Sign In</a
+              >
               <!-- form group has a complex form for the sign up modal https://getbootstrap.com/docs/4.0/components/forms/ -->
             </li>
           </ul>
@@ -57,8 +68,8 @@
       </nav>
     </header>
     <section class="bg-section-body">
-    <!-- the ads portion absolute can be found on the love running website in repl.it. video name "hero image cover text" -->
-<!-- <div class="container">
+      <!-- the ads portion absolute can be found on the love running website in repl.it. video name "hero image cover text" -->
+      <!-- <div class="container">
       <p>Tiles here</p> -->
       <!-- See custom content https://getbootstrap.com/docs/4.4/components/list-group/ -->
       <!-- <div class="list-group">
@@ -88,66 +99,120 @@
   </a>
 </div>
 </div> -->
-    <div class="tiles-all">
-    <div class="tiles">
-        <div class="c-story-header">
+      <div class="tiles-all">
+        <div class="tiles">
+          <div class="c-story-header">
             <h4>Story Title</h4>
             <div class="c-storydetails">
-                <small class="t-author">Author</small>
-                <small class="t-date">01/12/2020</small>
-                <small class="t-time">2:30pm</small>
+              <small class="t-author">Author</small>
+              <small class="t-date">01/12/2020</small>
+              <small class="t-time">2:30pm</small>
             </div>
-        </div>
-        <hr>
+          </div>
+          <hr />
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i><span>1,001 Likes</span>
-    </div>
-    <div class="tiles">
-        <h4>Story Title</h4>
-        <small class="t-author">Author</small>
-        <small class="t-date">01/12/2020</small>
-        <small class="t-time">2:30pm</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
-    </div>
-    <div class="tiles">
-        <h4>Story Title</h4>
-        <small class="t-author"Author></small>
-        <small class="t-date">01/12/2020</small>
-        <small class="t-time">2:30pm</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
-    </div>
-    <div class="tiles">
-        <h4>Story Title</h4>
-        <small class="t-author"Author></small>
-        <small class="t-date">01/12/2020</small>
-        <small class="t-time">2:30pm</small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
-    </div>
-    </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i
+          ><span>1,001 Likes</span>
+        </div>
+        <div class="tiles">
+          <h4>Story Title</h4>
+          <small class="t-author">Author</small>
+          <small class="t-date">01/12/2020</small>
+          <small class="t-time">2:30pm</small>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+        <div class="tiles">
+          <h4>Story Title</h4>
+          <small class="t-author" Author></small>
+          <small class="t-date">01/12/2020</small>
+          <small class="t-time">2:30pm</small>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+        <div class="tiles">
+          <h4>Story Title</h4>
+          <small class="t-author" Author></small>
+          <small class="t-date">01/12/2020</small>
+          <small class="t-time">2:30pm</small>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+      </div>
     </section>
-    <footer class="fixed-bottom border-top">
+    <footer class="border-top">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6 border-right">
-            <a href="about.html"><h3 id="c-footer-contactus"><i class="fas fa-phone-alt c-icon-contactus" aria-hidden="true"></i>Contact Us </h3></a>
+            <a href="about.html"
+              ><h3 id="c-footer-contactus">
+                <i
+                  class="fas fa-phone-alt c-icon-contactus"
+                  aria-hidden="true"
+                ></i
+                >Contact Us
+              </h3></a
+            >
           </div>
           <div class="col-sm-6">
             <div id="c-social-div">
-            <h3>Social Media</h3>
-            <ul class="list-inline social-icons">
-                <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank">
-                <i class="fab fa-facebook-square c-social-fonts"></i></a><span class="sr-only">Facebook</span>
-              </li>
-                <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank">
-                <i class="fab fa-instagram-square c-social-fonts" aria-hidden="true"></i></a><span class="sr-only">Youtube</span>
-              </li>
-              <li class="list-inline-item"><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square c-social-fonts" aria-hidden="true"></i></a><span class="sr-only">Youtube</span>
-              </li>
-            </ul>
+              <h3>Social Media</h3>
+              <ul class="list-inline social-icons">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-square c-social-fonts"></i></a
+                  ><span class="sr-only">Facebook</span>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <i
+                      class="fab fa-instagram-square c-social-fonts"
+                      aria-hidden="true"
+                    ></i></a
+                  ><span class="sr-only">Youtube</span>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.pinterest.com/" target="_blank"
+                    ><i
+                      class="fab fa-pinterest-square c-social-fonts"
+                      aria-hidden="true"
+                    ></i></a
+                  ><span class="sr-only">Youtube</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -156,6 +221,7 @@
 
     <!-- Modal -->
     <!-- Modal. Taken from bootstrap and modified.  -->
+    <!-- Future: To place this piece of code on in a different file to make it reusable. Unfortunatelly I have not learned this skill yet in this course  -->
     <div
       class="modal fade"
       id="exampleModalCenter"
@@ -177,7 +243,7 @@
             </button>
           </div>
           <div class="modal-body">
-                      <h5 class="modal-title text-center" id="modalsignin">Sign In</h5>
+            <h5 class="modal-title text-center" id="modalsignin">Sign In</h5>
 
             <form>
               <div class="form-group">
@@ -198,85 +264,110 @@
                 />
               </div>
               <small id="emailHelp" class="form-text text-muted c-float-right"
-                ><a href="http://www.imsorry.com/" target="_blank">Forgot password?</a></small>
+                ><a href="http://www.imsorry.com/" target="_blank"
+                  >Forgot password?</a
+                ></small
+              >
 
-              <button type="submit" class="btn btn-primary">Login</button>
+              <button type="submit" class="btn btn-primary">LOGIN</button>
             </form>
-            <hr>
-             <h5 class="modal-title text-center" id="modalsignup">Register</h5>
+            <hr />
+            <h5 class="modal-title text-center" id="modalsignup">REGISTER</h5>
             <form>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="firstname" placeholder="First Name">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="lastname" placeholder="Last Name">
-                    </div>
-                    <div class="form-group col-md-12">
-                        <input type="email" class="form-control" id="email2" placeholder="Email address">
-                    </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstname"
+                    placeholder="First Name"
+                  />
                 </div>
-            
-                <div class="form-row">
-                    <div class="form-group col-md-12">
-                        <label for="numberOfKids">How many kids do you have?</label>
-                        <select id="numberOfKids" class="form-control">
-                            <option selected>Choose...</option>
-                            <option>0</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10 or more</option>
-                        </select>
-                    </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastname"
+                    placeholder="Last Name"
+                  />
                 </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                        <input type="password" class="form-control" id="password2" placeholder="Password">
-                        </div>
-                        <div class="form-group col-md-6">
-                        <input type="password" class="form-control" id="confirmpassword2" placeholder="Confirm Password">
-                        </div>
-                    </div>
-                
-                    <button type="submit" class="btn btn-primary">Sign Up!</button>
-            </form>
+                <div class="form-group col-md-12">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email2"
+                    placeholder="Email address"
+                  />
+                </div>
+              </div>
 
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="numberOfKids">How many kids do you have?</label>
+                  <select id="numberOfKids" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10 or more</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password2"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="confirmpassword2"
+                    placeholder="Confirm Password"
+                  />
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Sign Up!</button>
+            </form>
           </div>
-          
         </div>
-    </div>
+      </div>
     </div>
 
     <!-- The three lines of code from section below were taken from bootstrap site in order to get the modal windows working. the links below allow Javascript and Jquery to run on this site -->
-   <section>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-function myFunction(x) {
-  x.classList.toggle("fa-thumbs-down");
-}
-</script>
-
+    <section>
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("fa-thumbs-down");
+        }
+      </script>
     </section>
   </body>
 </html>

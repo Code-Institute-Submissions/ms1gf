@@ -36,8 +36,13 @@ how to cut shot the <hr> line break from the Technologies
     - icons, see resume footer
 4- Ads: absolute. add images with links
 
+footerfixed bottom for desktop and not fix-bottom for mobile
 to fix button from mobile header?
 remove the modal "how many children..."?"
+add read more functionality to tiles
+ add shades to blocks and nav tag
+ nav item class= "active"
+
 
 Happy coding!
 # ChildrenDaze.com

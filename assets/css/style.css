@@ -61,7 +61,6 @@ footer {
   width: 600px;
   padding: 8px;
   margin-bottom: 20px;
-  max-height: 450px;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid rgb(53, 13, 13);
@@ -184,7 +183,11 @@ footer .social-icons {
 /*-------------------------------------------- About page*/
 
 
-/*-------------------------------------------- Footer*/
+/*-------------------------------------------- Modal*/
+
+button.close {
+    padding: 5px 8px 0 0;
+}
 
 .modal-body h5 {
     margin-bottom: 14px;
@@ -204,6 +207,34 @@ footer .social-icons {
     float: right;
 }
 
+@media only screen and (max-width: 490px) {
+.modal-body select[class=form-control] {
+    width: 30%;
+    float: right;
+}
+.modal-body label {
+    max-width: 70%;
+}
+}
+
+@media only screen and (max-width: 370px) {
+.modal-body select[class=form-control] {
+    width: 45%;
+    float: right;
+} 
+.modal-body label {
+    max-width: 50%;
+
+}
+}
+
 modal-body label .c-label {
     margin-top: 10px;
+}
+
+/* --------------------------------------------- Charity Content */
+#charity-image {
+  /* height: 600px;
+  width: 100%; */
+  background: url("assets/images/cancer_charity.jpg") no-repeat center center;
 }

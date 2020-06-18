@@ -16,8 +16,8 @@ A blue button should appear to click: *Make Public*,
 --------
 Mentor questions:
 - how to make the vertical short line in the footer
-- Conversion to mobile
 - Why social media icons does not accept the radius?
+- how to fix the hamburger dog
 
 to do:
 how to cut shot the <hr> line break from the Technologies

@@ -242,10 +242,10 @@ modal-body label .c-label {
 }
 
 #pic-text {
-    background-color: rgba(241, 47, 47, 0.5);
+    background-color: rgba(241, 47, 47, 0.5); 
     width: 350px;
     height: 350px;
-position: absolute;
+
 
 }
 
@@ -263,20 +263,23 @@ position: absolute;
     width: 150px;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 415px) {
 #charity-image {
     background: url("/assets/images/cancer_charity.jpg");
-    height: 20%;
+    height: 350px;
     width: 100%;
     background-position: center center;
-   
+    position: static;
+
 }
 
 #pic-text {
     background-color: rgba(241, 47, 47, 0.5);
     width: 350px;
     height: 350px;
-
+position: static;
+    left: 0;
+    top: 0;
 
 }
 
@@ -285,6 +288,39 @@ position: absolute;
     margin-top: 20px;
     margin-bottom: 40px;
     letter-spacing: 2px;
+    line-height: 1.8em;
+    font-weight: 700;
+}
+
+.jumbotron button {
+    height: 50px;
+    width: 150px;
+}
+}
+
+@media only screen and (max-width: 330px) {
+#charity-image {
+    background: url(/assets/images/cancer_charity.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center center;
+    position: static;
+}
+
+#pic-text {
+    background-color: rgba(241, 47, 47, 0.5);
+    width: 320px;
+    height: 350px;
+position: static;
+    left: 0;
+    top: 0;
+ }
+
+.jumbotron h3 {
+    color: #fafafa;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 1.3px;
     line-height: 1.8em;
     font-weight: 700;
 }

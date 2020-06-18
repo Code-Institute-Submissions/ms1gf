@@ -58,11 +58,8 @@ footer {
 /*-------------------------------------------- Content Body - Custom*/
 
 .tiles {
-  width: 600px;
   padding: 8px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
   border: 1px solid rgb(53, 13, 13);
 }
 

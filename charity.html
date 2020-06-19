@@ -25,13 +25,11 @@
     <title>ChildrenDazes</title>
   </head>
   <body>
-    <header class="border-bottom">
-      <!-- The nav element has been taken from bootstrap site and modified https://getbootstrap.com/docs/4.0/components/navbar/ -->
-      <nav
-        class="navbar navbar-expand-sm navbar-light bg-light .navbar-fixed-top"
-      >
-        <a class="navbar-brand" href="index.html">ChildrenDazes</a>
-        <button
+ <header class="border-bottom">
+		<!-- The nav element has been taken from bootstrap site and modified https://getbootstrap.com/docs/4.0/components/navbar/ -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light .navbar-fixed-top">
+			<a class="navbar-brand" href="index.html">ChildrenDazes</a>
+			<button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -43,33 +41,25 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="charity.html">Charity</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                data-toggle="modal"
-                data-target="#exampleModalCenter"
-                >Sign In</a
-              >
-              <!-- form group has a complex form for the sign up modal https://getbootstrap.com/docs/4.0/components/forms/ -->
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="charity.html">Charity</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">Sign In</a>
+						<!-- form group has a complex form for the sign up modal https://getbootstrap.com/docs/4.0/components/forms/ -->
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
       <section id="cherity-outer">
 		<div id="charity-image"> 
 		<div id="pic-text" class="jumbotron text-center">
@@ -91,67 +81,58 @@
         
         
 	</section>
-    <footer class="border-top">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6 border-right">
-            <a href="about.html"
-              ><h3 id="c-footer-contactus">
-                <i
+	<footer class="border-top ">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 border-right">
+					<a href="about.html">
+						<h3 id="c-footer-contactus">
+							<i
                   class="fas fa-phone-alt c-icon-contactus"
                   aria-hidden="true"
-                ></i
-                >Contact Us
-              </h3></a
-            >
-          </div>
-          <div class="col-sm-6">
-            <div id="c-social-div">
-              <h3>Social Media</h3>
-              <ul class="list-inline social-icons">
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com/" target="_blank">
-                    <i class="fab fa-facebook-square c-social-fonts"></i></a
-                  ><span class="sr-only">Facebook</span>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.instagram.com/" target="_blank">
-                    <i
-                      class="fab fa-instagram-square c-social-fonts"
-                      aria-hidden="true"
-                    ></i></a
-                  ><span class="sr-only">Youtube</span>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.pinterest.com/" target="_blank"
-                    ><i
-                      class="fab fa-pinterest-square c-social-fonts"
-                      aria-hidden="true"
-                    ></i></a
-                  ><span class="sr-only">Youtube</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+                ></i>Contact Us
+						</h3>
+					</a>
+				</div>
+				<div class="col-sm-6">
+					<div id="c-social-div">
+						<h3 class="d-none d-sm-block">Social Media</h3>
+						<ul class="list-inline social-icons">
+							<li class="list-inline-item">
+								<a href="https://www.facebook.com/" target="_blank">
+									<i class="fab fa-facebook-square c-social-fonts"></i></a><span class="sr-only">Facebook</span>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.instagram.com/" target="_blank">
+									<i
+                                    class="fab fa-instagram-square c-social-fonts"
+                                    aria-hidden="true"
+                                    ></i>
+                                </a><span class="sr-only">Youtube</span>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.pinterest.com/" target="_blank"><i
+                                    class="fab fa-pinterest-square c-social-fonts"
+                                    aria-hidden="true"
+                                    ></i>
+                                </a><span class="sr-only">Youtube</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-    <!-- Modal -->
-    <!-- Modal. Taken from bootstrap and modified.  -->
-    <!-- Future: To place this piece of code on in a different file to make it reusable. Unfortunatelly I have not learned this skill yet in this course  -->
-    <div
-      class="modal fade"
-      id="exampleModalCenter"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div >
-            <button
+	<!-- Modal -->
+	<!-- Modal. Taken from bootstrap and modified.  -->
+	<!-- Future: To place this piece of code on in a different file to make it reusable. Unfortunatelly I have not learned this skill yet in this course  -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div>
+					<button
               type="button"
               class="close"
               data-dismiss="modal"
@@ -159,13 +140,13 @@
             >
               <span aria-hidden="true">&times;</span>
             </button>
-          </div>
-          <div class="modal-body">
-            <h5 class="modal-title text-center" id="modalsignin">SIGN IN</h5>
+				</div>
+				<div class="modal-body">
+					<h5 class="modal-title text-center" id="modalsignin">SIGN IN</h5>
 
-            <form>
-              <div class="form-group">
-                <input
+					<form>
+						<div class="form-group">
+							<input
                   type="email"
                   class="form-control"
                   id="exampleInputEmail1"
@@ -173,56 +154,55 @@
                   placeholder="Enter email"
                 />
               </div>
-              <div class="form-group">
-                <input
+							<div class="form-group">
+								<input
                   type="password"
                   class="form-control"
                   id="exampleInputPassword1"
                   placeholder="Password"
                 />
               </div>
-              <small id="emailHelp" class="form-text text-muted c-float-right"
+								<small id="emailHelp" class="form-text text-muted c-float-right"
                 ><a href="http://www.imsorry.com/" target="_blank"
                   >Forgot password?</a
-                ></small
-              >
+                ></small>
 
-              <button type="submit" class="btn btn-primary">Log In!</button>
-            </form>
-            <hr />
-            <h5 class="modal-title text-center" id="modalsignup">REGISTER</h5>
-            <form>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <input
+								<button type="submit" class="btn btn-primary">Log In!</button>
+					</form>
+					<hr />
+					<h5 class="modal-title text-center" id="modalsignup">REGISTER</h5>
+					<form>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<input
                     type="text"
                     class="form-control"
                     id="firstname"
                     placeholder="First Name"
                   />
                 </div>
-                <div class="form-group col-md-6">
-                  <input
+								<div class="form-group col-md-6">
+									<input
                     type="text"
                     class="form-control"
                     id="lastname"
                     placeholder="Last Name"
                   />
                 </div>
-                <div class="form-group col-md-12">
-                  <input
+									<div class="form-group col-md-12">
+										<input
                     type="email"
                     class="form-control"
                     id="email2"
                     placeholder="Email address"
                   />
                 </div>
-              </div>
+									</div>
 
-              <div class="form-row">
-                <div class="form-group col-md-12">
-                  <label id="c-numberofkidslabel" for="numberOfKids">How many kids do you have?</label>
-                  <select id="numberOfKids" class="form-control">
+									<div class="form-row">
+										<div class="form-group col-md-12">
+											<label id="c-numberofkidslabel" for="numberOfKids">How many kids do you have?</label>
+											<select id="numberOfKids" class="form-control">
                     <option selected>Choose...</option>
                     <option>0</option>
                     <option>1</option>
@@ -236,56 +216,49 @@
                     <option>9</option>
                     <option>10 or more</option>
                   </select>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <input
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<input
                     type="password"
                     class="form-control"
                     id="password2"
                     placeholder="Password"
                   />
                 </div>
-                <div class="form-group col-md-6">
-                  <input
+											<div class="form-group col-md-6">
+												<input
                     type="password"
                     class="form-control"
                     id="confirmpassword2"
                     placeholder="Confirm Password"
                   />
                 </div>
-              </div>
+											</div>
 
-              <button type="submit" class="btn btn-primary">Sign Up!</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+											<button type="submit" class="btn btn-primary">Sign Up!</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <!-- The three lines of code from section below were taken from bootstrap site in order to get the modal windows working. the links below allow Javascript and Jquery to run on this site -->
-    <section>
-      <script
-        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"
-      ></script>
-      <script>
-        function myFunction(x) {
+	<!-- The three lines of code from section below were taken from bootstrap site in order to get the modal windows working. the links below allow Javascript and Jquery to run on this site -->
+	<section>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+		</script>
+		<script>
+			function myFunction(x) {
           x.classList.toggle("fa-thumbs-down");
         }
-      </script>
-    </section>
-  </body>
+		</script>
+	</section>  </body>
 </html>

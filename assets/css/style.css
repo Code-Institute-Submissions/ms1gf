@@ -39,7 +39,7 @@ body {
 }
 
 footer {
-  background-color: #fafafa;
+  background-color: #f8f9fa;
 }
 
 .c-icon-contactus {
@@ -195,7 +195,7 @@ footer .social-icons {
 }
 
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 550px) {
 
 #c-footer-contactus {
     text-align: center;
@@ -222,6 +222,8 @@ footer .social-icons {
    
 }
 }
+
+
 
 /*-------------------------------------------- About page*/
 

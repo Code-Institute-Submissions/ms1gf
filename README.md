@@ -1,18 +1,6 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
 --------
 Mentor questions:
 - how to make the vertical short line in the footer
@@ -44,26 +32,30 @@ add read more functionality to tiles
  nav item class= "active"
 
 
-Happy coding!
 # ChildrenDaze.com
 
-Remove: One or two paragraphs providing an overview of your project:
-This site provides gives people the chance to read and share children quotes.
+ChildrenDaze was  designed to provide entertainment for internauts. The intertainment is in the format of stories where the main protagonists are the children.
+In this webesite, people will be able to read stories and share thei own. Also, the website will be used as a media to raise funds for a charity campain that has the goal to help childer with cancer.
+The website has a simple and clean interface so people can focus in its content.
 
-
-Essentially, this part is your sales pitch.
- 
 ## UX
  
 Remove: Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-who this website is for, 
-what it is that they want to achieve 
-how your project is the best way to help them achieve these things.
+1- Who this website is for?
+Answer: This website is for people interested in family frindly entertainment related to children.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+2- What it is that users want to achieve in this website?
+Answer: the user want to be inpired by incent children wisdom, laugh at funny and sumetimes unexpected things they say. Also, children can say quite adorable things and if the user is looking for some cozy and warm fillings, they will be able to find it in the website.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+3- How your project is the best way to help them achieve these things?
+Answer: there are other webistes that provide the tipe of entertainment that childrendaze intend to offer. However other webistes focus are not based on only children experiences as this site is.
+
+User Stories: 
+- I need a break from work or school and I WANT to read about interesting thior cute thing, the GOAL is to relief my stress level.
+- USER children said something very funny and adorable and he WANTS to save this experience for himself so he never forget.
+- User child said something very cool and he would like to share this experience with other people who may like to know it.
+
+links to any wireframes, mockups, diagrams etc.??? add link to github in here.
 
 ## Features
 

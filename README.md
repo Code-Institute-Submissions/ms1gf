@@ -17,10 +17,10 @@ The website has a simple and clean interface so people can focus in its content.
 Answer: This website is for people interested in family frindly entertainment related to children.
 
 2- What it is that users want to achieve in this website?  
-Answer: the user want to be inpired by incent children wisdom, laugh at funny and sumetimes unexpected things they say. Also, children can say quite adorable things and if the user is looking for some cozy and warm fillings, they will be able to find it in the website.
+Answer: The user want to be inpired by incent children wisdom, laugh at funny and sumetimes unexpected things they say. Also, children can say quite adorable things and if the user is looking for some cozy and warm fillings, they will be able to find it in the website.
 
 3- How your project is the best way to help them achieve these things?  
-Answer: there are other webistes that provide the tipe of entertainment that childrendaze intend to offer. However other webistes focus are not based on only children experiences as this site is.
+Answer: There are other webistes that provide the tipe of entertainment that childrendaze intend to offer. However other webistes focus are not based on only children experiences as this site is.
 
 __User Stories:__   
   
@@ -40,6 +40,7 @@ __Link to wireframe:__
 - ### Existing Features
     - Clickable buttons and links.
     - Forms
+    - Hamburger icon on mobile version 
     - Modal window
     - Responsive Grid system
     - Color effect on social media icons on the footer
@@ -105,15 +106,45 @@ The project had its challenges but I was not able to identify bugs. Execept for 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Link to the github repository https://github.com/Gaberoids/ms1gf .
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+Link to the deployed site https://gaberoids.github.io/ms1gf/ .
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Deplyed and development versions have no differences.
 
+Deployment steps:
+1. Go to the link https://github.com/Gaberoids/ms1gf .
+2. Click the tab "Settings".
+3. Under the section "HUB Pages" click the dropdown button under "Source" and select "Master Branch".
+4. Go to under the "HUB Pages" section again, and click on the link. This link is the address to the deployed site.
+
+Clone Steps:
+1. Go to the link https://github.com/Gaberoids/ms1gf .
+2. Click the tab "Settings".
+3. Under the section "HUB Pages" click the dropdown button under "Source" and select "Master Branch".
+4. Go to under the "HUB Pages" section again, and click on the link. This link is the address to the deployed site.
+
+Cloning Repository steps
+1. On GitHub, navigate to the main page of the repository.
+2. Under the repository name, click Clone or download.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click .
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier.
+    - $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+7. Press Enter to create your local clone.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+Cloning a repository to GitHub Desktop
+On GitHub, navigate to the main page of the repository.
+Under the repository name, click Clone or download.
+Clone or download button
+To clone your repository in GitHub Desktop, under "Clone with HTTPS", click Open in Desktop
+Follow the prompts in GitHub Desktop to complete the clone.
 
 ## Credits
 

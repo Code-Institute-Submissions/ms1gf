@@ -279,7 +279,8 @@ modal-body label .c-label {
 
 /* --------------------------------------------- Charity Content */
 #charity-image {
-    background: url("/assets/images/cancer_charity.jpg");
+    background: url("/assets/images/cancer_charity.jpg"); 
+    /* picture source found on readme file  */
     height: 600px;
     width: 100%;
     background-position: center center;

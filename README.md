@@ -97,7 +97,8 @@ Automated testes were not performed.
 
 **Bugs:**  
 The project had its challenges but I was not able to identify bugs. Execept for one:
-- The browser when on a range of 450px-525px widgit, did not recognized the properties inside of CSS rule #c-social-div and #c-footer-contactus
+- The browser when on a range of 450px-525px widgit, did not recognized the properties inside of CSS rule @media. I redo the code using grid system and the issue got solved. My previous code that had issue was build by me using the div and box system.
+- I had an issue where the footer was showing on the middle of the page on about page. I checked the developer tool and the footer was that way because because the <html> default. I was able to fix the issue by adding bootstrap fixed-bottom class.
 
 ## Deployment
 
@@ -151,8 +152,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - The text for section charity.html page was copied from the [American Childhood Cancer Organization](https://www.acco.org/donate/)
 
 ### Media
--  [Link to the picture source](https://puntfoundation.org/wp-content/uploads/2019/11/PUNT_Banner_Home-Hero_v3.jpg)
-     from picture used in the charity.html' 
+-  [Link to the picture source](https://unsplash.com/photos/yg1Zayn0Few)
+     from picture used in the charity.html (national-cancer-institute-yg1Zayn0Few-unsplash.jpg)
 
 ### Acknowledgements
 

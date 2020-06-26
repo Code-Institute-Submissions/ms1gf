@@ -360,3 +360,8 @@ modal-body label .c-label {
     width: 150px;
   }
 }
+
+.c-charity-p {
+    /* making the paragraph visible (not hidden behind footer in small height screen */
+    margin-bottom: 80px;
+}

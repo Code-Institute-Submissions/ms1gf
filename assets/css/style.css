@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
+/* Note: classes and ids starting with "c-" were custom made by me. Not all made by me start this way but if it does, they are custom" */
 body {
   font-family: "Roboto", sans-serif;
   color: rgba(0, 0, 0, 0.5);
@@ -173,6 +174,38 @@ footer h3 {
 
 /*-------------------------------------------- About page*/
 
+#c_about_image {
+    background-image: url(/assets/images/childrendaze_about.jpg);
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    border-radius: 12%;
+    margin-bottom: 20px;
+
+}
+
+#c_about_image  h2{
+    position: absolute;
+    right: 5%;
+    top: 22%;
+    color: white;
+    text-shadow: 4px -1px 5px #a1703e;
+    letter-spacing: 2px;
+}
+
+.center-button {
+    text-align: center;
+}
+
+#contactus-button {
+    /* margin to prevent the button to be hidden on mobile view */
+    margin-bottom: 100px; 
+}
+
+.c-aboutus {
+        /* margin to prevent the <p> text to be hidden on desktop low height view */
+    margin-bottom: 80px;
+}
 /*-------------------------------------------- Modal*/
 
 button.close {
@@ -257,7 +290,7 @@ modal-body label .c-label {
 
 @media only screen and (max-width: 415px) {
   #charity-image {
-    background: url("/assets/images/cancer_charity.jpg");
+    background: url("/assets/images/cancer_child-unsplash_1920x1280.jpg");
     height: 350px;
     width: 100%;
     background-position: center center;
@@ -290,7 +323,7 @@ modal-body label .c-label {
 
 @media only screen and (max-width: 330px) {
   #charity-image {
-    background: url(/assets/images/cancer_charity.jpg);
+    background: url("/assets/images/cancer_child-unsplash_1920x1280.jpg");
     height: 350px;
     width: 350px;
     background-position: center center;

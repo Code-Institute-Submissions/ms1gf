@@ -151,7 +151,10 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Media
 -  [Link to the picture source](https://unsplash.com/photos/yg1Zayn0Few)
-     from picture used in the charity.html (national-cancer-institute-yg1Zayn0Few-unsplash.jpg)
+     from picture used in the charity.html (national-cancer-institute-yg1Zayn0Few-unsplash.jpg).
+-   [Link to picture source](https://unsplash.com/photos/4K2lIP0zc_k)
+    picure used on the about.html page (childrendaze_about.jpg).
+
 
 ### Acknowledgements
 

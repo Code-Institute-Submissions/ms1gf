@@ -6,6 +6,13 @@ body {
   color: rgba(0, 0, 0, 0.5);
 }
 
+header {
+  box-shadow: 1px 0px 8px 0px grey;
+}
+
+footer {
+  box-shadow: 1px 0px 4px 0px grey;
+}
 /*-------------------------------------------- Colors*/
 
 .bg-section-body {
@@ -58,6 +65,7 @@ footer {
   padding: 8px;
   margin-bottom: 20px;
   border: 1px solid rgb(53, 13, 13);
+  box-shadow: -9px 12px 10px grey;
 }
 
 .c-story-header {
@@ -175,36 +183,35 @@ footer h3 {
 /*-------------------------------------------- About page*/
 
 #c_about_image {
-    background-image: url(/assets/images/childrendaze_about.jpg);
-    height: 200px;
-    background-size: cover;
-    position: relative;
-    border-radius: 12%;
-    margin-bottom: 20px;
-
+  background-image: url(/assets/images/childrendaze_about.jpg);
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  border-radius: 12%;
+  margin-bottom: 20px;
 }
 
-#c_about_image  h2{
-    position: absolute;
-    right: 5%;
-    top: 22%;
-    color: white;
-    text-shadow: 4px -1px 5px #a1703e;
-    letter-spacing: 2px;
+#c_about_image h2 {
+  position: absolute;
+  right: 5%;
+  top: 22%;
+  color: white;
+  text-shadow: 4px -1px 5px #a1703e;
+  letter-spacing: 2px;
 }
 
 .center-button {
-    text-align: center;
+  text-align: center;
 }
 
 #contactus-button {
-    /* margin to prevent the button to be hidden on mobile view */
-    margin-bottom: 100px; 
+  /* margin to prevent the button to be hidden on mobile view */
+  margin-bottom: 100px;
 }
 
 .c-aboutus {
-        /* margin to prevent the <p> text to be hidden on desktop low height view */
-    margin-bottom: 80px;
+  /* margin to prevent the <p> text to be hidden on desktop low height view */
+  margin-bottom: 80px;
 }
 /*-------------------------------------------- Modal*/
 

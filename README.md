@@ -2,20 +2,16 @@
 
 # ChildrenDaze.com
 
-ChildrenDaze was  designed to provide entertainment for internauts. The intertainment is in the format of stories where the main protagonists are the children.
-In this webesite, people will be able to read stories and share thei own. Also, the website will be used as a media to raise funds for a charity campain that has the goal to help childer with cancer.
-The website has a simple and clean interface so people can focus in its content.
-
+ChildrenDaze was designed to provide entertainment for internauts. The entertainment is in the form of stories where the main protagonists are children. In this website, people will be able to read stories and share their own. Also, the website will be used as media to raise funds for a charity campaign that has the goal to help children with cancer. The website has a simple and clean interface so people can focus in its content.
 ## UX
  
 1- Who this website is for?  
-Answer: This website is for people interested in family frindly entertainment related to children.
+Answer: This website is for people interested in family friendly entertainment related to children.
 
 2- What it is that users want to achieve in this website?  
-Answer: The user want to be inpired by incent children wisdom, laugh at funny and sumetimes unexpected things they say. Also, children can say quite adorable things and if the user is looking for some cozy and warm fillings, they will be able to find it in the website.
-
+Answer: The user want to be inspired by innocenent children wisdom or laugh at funny things they say. Also, children can say quite adorable things and if the user is looking for some cozy and warm fillings, they will be able to find it on the website.
 3- How your project is the best way to help them achieve these things?  
-Answer: There are other webistes that provide the tipe of entertainment that childrendaze intend to offer. However other webistes focus are not based on only children experiences as this site is.
+Answer: There are other websites that provide the type of entertainment that childrendaze intend to offer. However, other websites focus are not based on only children experiences as this site is.
 
 __User Stories:__   
   
@@ -23,7 +19,7 @@ __User Stories:__
 | ------------- |:-------------:| 
 | User wants to read nice things online during his school break  | to relief stress | 
 | User wants to record a cool thing his daughter said     | To remember the cool things his daughter said while growing up      |  
-| User wants to share with the world something cool that his little sun said | to show off how cool is his sun      |
+| User wants to share with the world something cool that his little son said | to show off how cool is his son      |
 
   
 __Link to wireframe:__     
@@ -32,7 +28,7 @@ __Link to wireframe:__
 ## Features
  
 - ### Existing Features
-    - Clickable buttons and links.
+    - Clickable buttons and links
     - Forms
     - Hamburger icon on mobile version 
     - Modal window
@@ -40,65 +36,66 @@ __Link to wireframe:__
     - Color effect on social media icons on the footer
     - Jumbotron
     - Animation on thumb up icons on index.html
+    - icons and background image
 
 - ### Features Left to Implement
     - Ability to register and login.
     - User profile page.
-    - Ability to user to share his stories 
+    - Ability to user to share his stories.
     - ability to comment and like posts.
     - in the index.html page, to add a section for add on the right side of the page as the wireframe shows.
 
 ## Technologies Used
 
 [Bootstrap](https://getbootstrap.com/docs/4.0/utilities/display/) 
-    - The navigation bar and footer and login/register portions of the website were built with a template from **bootstrap** to spead up development. However, the template's layout and theme have been modified from its original version to blend those functionaities with the rest of the site.
-    - The homepage.html, charity.html, and about.html page's content/body section were built from scratch by me using HTML/CSS/Bootstrap.
+    - The navigation bar and footer and login/register portions of the website were built with a template from **bootstrap** to speed up development. However, the template's layout and theme have been modified from its original version to blend those functionalities with the rest of the site.   
+    The homepage.html, charity.html, and about.html page's content/body section were built from scratch by me using HTML/CSS/Bootstrap.
 
 [Fontawesome](https://fontawesome.com/)
     - **Fontawesome** was used to style the fonts of the project.
 
 [Viewport](https://www.w3schools.com/css/css_rwd_viewport.asp) 
     - Meta name **viewport** was also added in order to make the site responsive to different sizes of screen.
-a <link> was added to the site to make the site able to run javascript (thumbs up functionality required it.)
+a <link> was added to the site to make the site able to run JavaScript (thumbs up functionality required it.)
   
-  [JQuery](https://jquery.com) and [Javascript](https://www.javascript.com/) - The project uses **JQuery and javascript** to make features responsive to customer actions (thumbs up functionality required it.).
+  [JQuery](https://jquery.com) and [Javascript](https://www.javascript.com/) - The project uses **JQuery and javascript** to make features responsive to customer's actions (thumbs up functionality required it).
 
 
 ## Testing
 
-Automated testes were not performed.
+Automated tests were not performed.
 
 1. Navigation bar:
     1. Go to the "Homapage" page
-    2. Click on all links and button to see if they work and take the user the the pages they meant to go.
+    2. Click on all links and buttons to see if they work and take the user to the pages they meant to go.
     3. Change the size of the screen to make sure that the navbar is presentable
-    4. Click the links and button again in different size of screens to verify they still work (mainly when humburrger icon shows).
+    4. Click the links and button again in different size of screens to verify they still work (mainly when hamburger icon shows).
 
 2. Content section of homepage:
     1. Go to the "Homepage" page
     2. Make sure that the content is readable and properly laid out.
-    3. Click the "thunbs" to make sure that the work well in terms of functionality and effects.
-    4. Change sizes of screen to make sure that the site is still presentable and functional.
+    3. Click the "thumbs" to make sure that they work well in terms of functionality and effects.
+    4. Change sizes of the screens to make sure that the site is still presentable and functional on those sizes.
 
 3. Content section of other pages:
     1. Go to the "homepage" page and click on the link "Charity" from the navigation bar.
     2. Make sure that the content is presentable in all sizes of screens and that the button work.
     3. Click on the link "About Us" from the navigation bar.
-    4. Make sure the content of the page is presentable in sizes of screen.
-    5. Make sure that the text box are working on all sizes of screen by typing text in them to make the digits shows there.
+    4. Make sure the content of the page is presentable in all sizes of screen.
+    5. Make sure that the text box are working on all sizes of the screen by typing text in them to make the digits shows there.
 
-    (*CLARIFICATION NOTE: Testing screensize means, by increasing and decreasing the browser window and using developer tool to test site on mobile view.*)
+    (*CLARIFICATION NOTE: Testing screen size means -> by increasing and decreasing the browser window and using developer tools to test site on mobile view.*)
 
 
-**The pages in this webiste will be more simple in the mobile view. For example:**
+**The pages in this website will be more simple in the mobile view compared to desktop view. For example:**
 - links in the menu navigator will be replaced by the hamburger icon.
-- Footer portion related to social media, will present only the icons (no text "Social Media") and wont have animation/effect on mobile version.
-- Content body sections were made with grid system bootstrap, which mean that, in mobile view or small screens, the column will be presented on top of each other as they were rows.
+- The footer portion related to social media, will present only the icons (no text "Social Media").
+- Content body sections were made with grid system bootstrap, which mean that, in mobile view or small screens, the column will be presented on top of each other as rows.
 
 **Bugs:**  
-The project had its challenges but I was not able to identify bugs. Execept for one:
-- The browser when on a range of 450px-525px widgit, did not recognized the properties inside of CSS rule @media. I redo the code using grid system and the issue got solved. My previous code that had issue was build by me using the div and box system.
-- I had an issue where the footer was showing on the middle of the page on about page. I checked the developer tool and the footer was that way because because the <html> default. I was able to fix the issue by adding bootstrap fixed-bottom class.
+The project had its challenges, but I was not able to identify bugs. Except for the two following bugs:
+- The browser when on a range of 450px-525px width, did not recognize the properties inside of CSS rule @media that included that width range. I redo the code using grid system and the issue got solved. My previous code that had the issue was built by me using the div and box system (without bootstrap grid system).
+- I had an issue where the footer was shown in the middle of the page about.html. I checked the developer tool and found that the footer was that way because because <html> default dimentions. I was able to fix the issue by adding bootstrap fixed-bottom class to the footer.
 
 ## Deployment
 
@@ -147,9 +144,10 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 6. Follow the prompts in GitHub Desktop to complete the clone.
 
 ## Credits
+- My tutor at code academy Moosa. He helped me with directions on how to fix my bugs or how to improve the visual presentation of the site.
 
 ### Content
-- The text for section charity.html page was copied from the [American Childhood Cancer Organization](https://www.acco.org/donate/)
+- The text for the section charity.html page was copied from the [American Childhood Cancer Organization](https://www.acco.org/donate/) site.
 
 ### Media
 -  [Link to the picture source](https://unsplash.com/photos/yg1Zayn0Few)
@@ -157,6 +155,6 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Acknowledgements
 
-I received inspiration for this project from [Codeacademy](https://courses.codeinstitute.net/)
-- The modal functionality and the mobil hemburger buttons were built inspired on projects from the video classes from code institute (https://courses.codeinstitute.net/)
+I received inspiration for this project from [Codeacademy](https://courses.codeinstitute.net/).
+- The modal functionality and the mobil hemburger buttons were built inspired on projects from the video classes from code institute (https://courses.codeinstitute.net/).
  

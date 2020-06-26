@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 body {
-  /*  background-image: url("/assets/images/kids_clouds_bg.jpg"); this image is from https://wallpapersafari.com/w/JD9L2H */
-
   font-family: "Roboto", sans-serif;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -31,7 +29,7 @@ body {
 }
 
 .tiles-all h4 {
-  background-color:#fafafa;
+  background-color: #fafafa;
 }
 
 .c-storydetails {
@@ -39,7 +37,7 @@ body {
 }
 
 footer {
-    background-color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 
 .c-icon-contactus {
@@ -47,15 +45,13 @@ footer {
   color: #fafafa;
 }
 
-/*-------------------------------------------- Content Body*/
+/*-------------------------------------------- Content Body */
 
 .list-group-item-action {
   width: 600px;
   z-index: 1;
   text-decoration: none;
 }
-
-/*-------------------------------------------- Content Body - Custom*/
 
 .tiles {
   padding: 8px;
@@ -68,7 +64,7 @@ footer {
 }
 
 .tiles-all h4 {
-    font-weight: 400;
+  font-weight: 400;
   position: relative;
   bottom: -10px;
   display: inline-block;
@@ -81,9 +77,9 @@ footer {
 }
 
 .c-i-icon {
-        font-size: 13px;
-    margin-right: 5px;
-    color: #1459a1;
+  font-size: 13px;
+  margin-right: 5px;
+  color: #1459a1;
 }
 
 .tiles span {
@@ -92,8 +88,8 @@ footer {
 }
 
 .tiles p {
-    font-weight: 600;
-    line-height: 1.33em;
+  font-weight: 600;
+  line-height: 1.33em;
 }
 
 .tiles .fa-thumbs-up {
@@ -112,222 +108,215 @@ footer {
 }
 
 @media only screen and (max-width: 370px) {
-
-.tiles-all h4 {
+  .tiles-all h4 {
     font-weight: 400;
-  position: relative;
-  bottom: 0;
-  display: block;
-  margin: auto 10px;
-}
+    position: relative;
+    bottom: 0;
+    display: block;
+    margin: auto 10px;
+  }
 
-.c-storydetails {
+  .c-storydetails {
     float: none;
     display: block;
-      margin: 10px 10px 0;
-
-}
+    margin: 10px 10px 0;
+  }
 }
 
 /*-------------------------------------------- Footer page*/
 
-footer h3, footer i {
-    font-size: 1.8rem;
-    margin-bottom: 5px;
+footer h3,
+footer i {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
 }
 
 footer h3 {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .c-contactus {
-    display: inline-block;
+  display: inline-block;
 }
 
 #contactus-icon {
-    margin-right: 10px;
-    font-size: 22px;
-    color: #14a18d;
+  margin-right: 10px;
+  font-size: 22px;
+  color: #14a18d;
 }
 
 #contactuslink:hover {
-    color: #1459a1;
+  color: #1459a1;
 }
 
 #contactuslink {
-    color: #7b7b7c;
-    transition: all 0.50s ease-in-out;
-    -moz-transition: all 0.50s ease-in-out;
-    -webkit-transition: all 0.50s ease-in-out;
-    -o-transition: all 0.50s ease-in-out;   
+  color: #7b7b7c;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
 
 .c-social-icon:hover {
-    color: #e71208;
+  color: #e71208;
 }
 
 .c-social-icon {
-    color: #a11b14;
-    margin-right: 7px;
-    margin-left: 7px;
-    transition: all 0.50s ease-in-out;
-    -moz-transition: all 0.50s ease-in-out;
-    -webkit-transition: all 0.50s ease-in-out;
-    -o-transition: all 0.50s ease-in-out;   
-    
+  color: #a11b14;
+  margin-right: 7px;
+  margin-left: 7px;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
 
-
 /*-------------------------------------------- About page*/
-
 
 /*-------------------------------------------- Modal*/
 
 button.close {
-    padding: 5px 8px 0 0;
+  padding: 5px 8px 0 0;
 }
 
 .modal-body h5 {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .c-float-right {
-    float: right;
+  float: right;
 }
 
 .modal-body hr {
-    margin: 21px 155px;
-    border-top: 1px solid rgba(0,0,0,.2);
+  margin: 21px 155px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.modal-body select[class=form-control] {
-    width: 49%;
-    float: right;
+.modal-body select[class="form-control"] {
+  width: 49%;
+  float: right;
 }
 
 @media only screen and (max-width: 490px) {
-.modal-body select[class=form-control] {
+  .modal-body select[class="form-control"] {
     width: 30%;
     float: right;
-}
-.modal-body label {
+  }
+  .modal-body label {
     max-width: 70%;
-}
+  }
 }
 
 @media only screen and (max-width: 370px) {
-.modal-body select[class=form-control] {
+  .modal-body select[class="form-control"] {
     width: 45%;
     float: right;
-} 
-.modal-body label {
+  }
+  .modal-body label {
     max-width: 50%;
-
-}
+  }
 }
 
 modal-body label .c-label {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* --------------------------------------------- Charity Content */
 #charity-image {
-    background: url("/assets/images/cancer_charity.jpg"); 
-    /* picture source found on readme file  */
-    height: 600px;
-    width: 100%;
-    background-position: center center;
-    position: relative;
+  background: url("/assets/images/cancer_child-unsplash_1920x1280.jpg");
+  /* picture source found on readme file  */
+  height: 600px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
 }
 
 #pic-text {
-    background-color: rgba(241, 47, 47, 0.5); 
-    width: 350px;
-    height: 350px;
-position: absolute;
-    left: 15%;
-    top: 21%;
-
+  background-color: rgba(241, 47, 47, 0.5);
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  left: 15%;
+  top: 21%;
 }
 
 .jumbotron h3 {
-    color: #fafafa;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    letter-spacing: 2px;
-    line-height: 1.8em;
-    font-weight: 700;
+  color: #fafafa;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+  font-weight: 700;
 }
 
 .jumbotron button {
-    height: 50px;
-    width: 150px;
+  height: 50px;
+  width: 150px;
 }
 
 @media only screen and (max-width: 415px) {
-#charity-image {
+  #charity-image {
     background: url("/assets/images/cancer_charity.jpg");
     height: 350px;
     width: 100%;
     background-position: center center;
     position: static;
+  }
 
-}
-
-#pic-text {
+  #pic-text {
     background-color: rgba(241, 47, 47, 0.5);
     width: 350px;
     height: 350px;
-position: static;
+    position: static;
     left: 0;
     top: 0;
+  }
 
-}
-
-.jumbotron h3 {
+  .jumbotron h3 {
     color: #fafafa;
     margin-top: 20px;
     margin-bottom: 40px;
     letter-spacing: 2px;
     line-height: 1.8em;
     font-weight: 700;
-}
+  }
 
-.jumbotron button {
+  .jumbotron button {
     height: 50px;
     width: 150px;
-}
+  }
 }
 
 @media only screen and (max-width: 330px) {
-#charity-image {
+  #charity-image {
     background: url(/assets/images/cancer_charity.jpg);
     height: 350px;
     width: 350px;
     background-position: center center;
     position: static;
-}
+  }
 
-#pic-text {
+  #pic-text {
     background-color: rgba(241, 47, 47, 0.5);
     width: 320px;
     height: 350px;
-position: static;
+    position: static;
     left: 0;
     top: 0;
- }
+  }
 
-.jumbotron h3 {
+  .jumbotron h3 {
     color: #fafafa;
     margin-top: 20px;
     margin-bottom: 40px;
     letter-spacing: 1.3px;
     line-height: 1.8em;
     font-weight: 700;
-}
+  }
 
-.jumbotron button {
+  .jumbotron button {
     height: 50px;
     width: 150px;
-}
+  }
 }

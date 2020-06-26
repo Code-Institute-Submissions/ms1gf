@@ -183,7 +183,7 @@ footer h3 {
 /*-------------------------------------------- About page*/
 
 #c_about_image {
-  background-image: url(/assets/images/childrendaze_about.jpg);
+  background-image: url("https://raw.githubusercontent.com/Gaberoids/ms1gf/master/assets/images/childrendaze_about.jpg");
   height: 200px;
   background-size: cover;
   position: relative;
@@ -330,7 +330,7 @@ modal-body label .c-label {
 
 @media only screen and (max-width: 330px) {
   #charity-image {
-    background: url("/assets/images/cancer_child-unsplash_1920x1280.jpg");
+    background: url("https://raw.githubusercontent.com/Gaberoids/ms1gf/master/assets/images/cancer_child-unsplash_1920x1280.jpg");
     height: 350px;
     width: 350px;
     background-position: center center;

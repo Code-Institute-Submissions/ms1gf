@@ -263,7 +263,7 @@ modal-body label .c-label {
 
 /* --------------------------------------------- Charity Content */
 #charity-image {
-  background: url("/assets/images/cancer_child-unsplash_1920x1280.jpg");
+  background: url("https://raw.githubusercontent.com/Gaberoids/ms1gf/master/assets/images/cancer_child-unsplash_1920x1280.jpg");
   /* picture source found on readme file  */
   height: 600px;
   width: 100%;
@@ -297,7 +297,7 @@ modal-body label .c-label {
 
 @media only screen and (max-width: 415px) {
   #charity-image {
-    background: url("/assets/images/cancer_child-unsplash_1920x1280.jpg");
+    background: url("https://raw.githubusercontent.com/Gaberoids/ms1gf/master/assets/images/cancer_child-unsplash_1920x1280.jpg");
     height: 350px;
     width: 100%;
     background-position: center center;
